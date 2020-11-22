@@ -1,0 +1,7 @@
+num = int(input("Enter a number: "))  
+#we can create a scanner, print to console, scan user input, and store in a variable all in one line in Python. In Java this would be 3 lines
+if (num % 2) == 0:  
+   print("{0} is an even number".format(num)) 
+   #if remainder of dividing by 2 is 0 then print to console that it is an even number
+else:  
+   print("{0} is an odd number".format(num))  
